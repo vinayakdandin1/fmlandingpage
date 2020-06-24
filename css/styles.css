@@ -1,0 +1,215 @@
+/* <style > .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+</style >  */
+
+/* ## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Cyan: hsl(179, 62%, 43%)
+- Bright Yellow: hsl(71, 73%, 54%)
+
+### Neutral
+
+- Light Gray: hsl(204, 43%, 93%)
+- Grayish Blue: hsl(218, 22%, 67%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 16px
+
+### Font
+
+- Family: [Karla](https://fonts.google.com/specimen/Karla)
+- Weights: 400, 700 */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: -5rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 1440px;
+  margin: 0 auto;
+  font-family: 'Karla', sans-serif;
+  box-sizing: border-box;
+  background-color: #909ed5;
+}
+
+footer {
+  margin: 10rem 20rem;
+  text-align: center;
+}
+
+.hero-section {
+  margin: 10rem 40rem 2rem 40rem;
+}
+
+.hero-top-section {
+  background-color: #fff;
+  padding: 4rem 5rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.hero-main-heading {
+  color: #2ab2af;
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+
+.hero-sub-heading {
+  color: #badd22;
+  font-weight: 700;
+  padding-bottom: 1.5rem;
+}
+
+.main-intro {
+  color: hsl(218, 22%, 67%);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.main-intro-first {
+  display: block;
+}
+
+.secondary-section-first {
+  background-color: #2ab2af;
+  color: #fff;
+  padding: 3rem 5rem 5rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.secondary-section-second {
+  background-color: #30cfcc;
+  border-bottom-right-radius: 1rem;
+  padding: 3rem 9rem 5rem 5rem;
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.secondary-second-description {
+  color: hsl(204, 43%, 93%);
+}
+
+.subscription {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.price {
+  color: #6edddb;
+  font-size: 1.4rem;
+  vertical-align: middle;
+}
+
+.month {
+  font-size: 4rem;
+  color: #fff;
+  vertical-align: middle;
+}
+
+.full-access {
+  color: hsl(204, 43%, 93%);
+  font-size: 1.4rem;
+  margin-bottom: 4rem;
+}
+
+.sign-up {
+  background-color: hsl(71, 73%, 54%);
+  color: #fff;
+  padding: 1.2rem 8rem;
+  border-radius: 0.5rem;
+  font-size: 1.4rem;
+  margin-bottom: 10rem;
+}
+
+.sign-up:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 375px;
+  }
+
+  .hero-section {
+    margin: 6rem 3rem 10rem 3rem;
+  }
+
+  .hero-top-section {
+    background-color: #fff;
+    padding: 2rem 3rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+
+  .hero-main-heading {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .hero-sub-heading {
+    font-size: 1.6rem;
+  }
+
+  .main-intro-first {
+    display: inline;
+    font-size: 1.2rem;
+  }
+
+  .secondary-section-first {
+    padding: 3rem 3rem 5rem;
+    border-bottom-left-radius: 0;
+  }
+
+  .secondary-section-second {
+    padding: 3rem 6rem 2rem 3rem;
+    font-size: 1.4rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+
+  .sign-up {
+    padding: 1.2rem 10rem;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+    margin-bottom: 10rem;
+  }
+
+  footer {
+    margin: 5rem 5rem;
+  }
+}
